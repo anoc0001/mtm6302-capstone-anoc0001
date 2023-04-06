@@ -17,4 +17,4 @@ rigth after validating my code i found out that i was missing a doc html and and
 finally i was able to position the icons where i want it, this was sloved with display: inline block, and padding:inline start 20px;
 
 i think there is something wrong with my site, i keep having random warrings from console.
-    
+    Thankfully both html and css were successfully validated with no errors.
