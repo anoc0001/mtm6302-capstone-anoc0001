@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #91c0fd;
+    min-width: 100vh;
+}
+
+/* stlying the navigation */
+.nav-responsive{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background:rgb(0, 0, 0);
+    padding: 5rem 0rem;
+    padding-bottom: 0rem;
+    margin-top: -5rem;
+    
+}
+
+/* logo */
+.logp{
+    width: 30%;
+}
+
+/* search  */
+.nav-search{
+    width: 47vw;
+    position: relative;
+    margin: 5px;
+    margin-bottom: -1%;
+}
+#search{
+    margin: 0 auto;
+    width: 30vw;
+    outline: none;
+    font-size: 1.5rem;
+    padding:0.2rem 5rem 0.2rem 1rem;
+    border-radius: 1rem;
+    border: none;
+    text-align: center;
+}
+/* search icon */
+#find{
+    position: absolute;
+    font-size: 1.3rem;
+    top: 0.3rem;
+    left: 0.5rem;
+    color: rgb(0, 0, 0);
+    background: transparent;
+}
+
+/* styling the icons */
+
+.access a{
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 20px;
+    color: rgb(254, 254, 253);
+    font-size: 20px;
+    text-decoration: none;
+    flex-direction: column;
+    margin: 0 auto 10px;
+    
+
+}
+
+.access a:hover{
+  color: #aa6daa;
+}
+
+.icon p{
+margin: auto;
+display: block;
+text-align: center;
+
+}
+
+.icon{
+    text-align: center;
+    max-width: 200px;
+}
+
+
+
+
+
+/* adding banner */
+.main{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    align-self: baseline;
+    padding: 2rem;
+    padding-left: 5rem;
+    background: #34547e;
+}
+
+.title img{
+    height: auto;
+    max-width: 300%;
+}
+
+.text-banner{
+    width: 60%;
+}
+.banner {
+    width: 50%;
+}
+
+/* styling charaters and title*/
+
+.choose{
+    margin-top: 5rem;
+    padding-left: 6%;
+}
+
+/* styling the gallery */
+.pokemon{
+    min-width: 100vh;
+    display: flex;
+    background: rgb(104, 72, 61);
+    padding: 50px 8%;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column-reverse;
+    
+}
+
+.pokemon{
+    margin: 5rem;
+    margin-top: 20px;
+    padding: 56px;
+    padding-right: 5px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+    
+}
+
+.gallery img{
+    width: 50%;
+}
+
+.gallery h3{
+    font-size: 1rem;
+    color: #faf9f9;
+    
+}
+
+.pokemon .gallery .box{
+    text-align: center;
+    padding:3rem 2rem;
+    outline: .1rem solid #874e4e;
+    outline-offset: -1.5rem;
+    cursor: pointer;
+ }
+ 
+ .pokemon .gallery .box:hover{
+    outline: .2rem solid #aa6daa;
+    outline-offset: 0;
+ }
+/* gallery hover animation */
+ .pokemon .gallery .box:hover img{
+    transform: scale(.9);
+ }
+
+/************** styling button *************/
+button{
+    background: #050505;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 60px;
+    transform: translate(100%, -50%);
+    align-content: flex-end;
+    display: flex;
+    padding: 15px 50px;
+    font-size: 25px;
+}
+
+.butt{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: self-end;
+    margin-right: 21%;
+    margin-bottom: 5%;
+    
+}
+
+/* button hover effect */
+
+.butt button:hover{
+    background-color: #aa6daa;
+}
+
+/* ************ styling the footr*********** */
+.foot{
+    background-color: #050505;
+    color: #faf9f9;
+    padding: 30px;
+    font-size: 20px;
+    position: sticky;
+    top: 100%;
+}
+
+.foot p{
+    text-align: center;
+}
+
+
