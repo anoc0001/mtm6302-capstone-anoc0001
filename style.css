@@ -157,22 +157,42 @@ text-align: center;
     
 }
 
-.pokemon .gallery .box{
+.pokemon .gallery .lists__pokemons{
     text-align: center;
     padding:3rem 2rem;
-    outline: .1rem solid #874e4e;
     outline-offset: -1.5rem;
     cursor: pointer;
  }
  
- .pokemon .gallery .box:hover{
+ .lists__pokemons .pokemon__img:hover{
     outline: .2rem solid #aa6daa;
     outline-offset: 0;
  }
 /* gallery hover animation */
- .pokemon .gallery .box:hover img{
+ .pokemon .gallery .lists__pokemons:hover img{
     transform: scale(.9);
  }
+ /******* adding new styles due to APi ***********/
+
+ .lists__pokemons {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+    gap: 2em;
+    padding: 1em;
+    text-align: center;
+  }
+  .pokemon__img {
+    border: 1px solid #874e4e;
+    width: 100%;
+    border-radius: 3px;
+    color: #fff;
+    padding: 0.5em;
+  }
+  .pokemon__img img {
+    height: 200px;
+    width: 100%;
+   
+  }
 
 /************** styling button *************/
 button{
@@ -202,7 +222,10 @@ button{
     background-color: #aa6daa;
 }
 
-/* ************ styling the footr*********** */
+/* image popups */
+
+
+/* ************ styling the footer*********** */
 .foot{
     background-color: #050505;
     color: #faf9f9;
