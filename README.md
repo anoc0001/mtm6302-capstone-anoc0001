@@ -18,3 +18,9 @@ finally i was able to position the icons where i want it, this was sloved with d
 
 i think there is something wrong with my site, i keep having random warrings from console.
     Thankfully both html and css were successfully validated with no errors.
+
+    <!-- part-4 -->
+
+    changings: i had to dynamically add the veiw more button with js to properly load more pokemons and go back to previous with catch error
+
+    made changes to the pokemon css styles because the wight of the api overpowered my previous styles, popup image was diffcult to create it was't working for me
