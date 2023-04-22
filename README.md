@@ -3,10 +3,10 @@ student number: 040994254
 Capstone project: Pokedex
 
 Design decision: for the gallary backgroud i chose brown color with grey under tone because a lot of the charater has brigts colors, so the dark background makes vissualizing each character easy and enjoyable.
-i chose the font style book antiqua because it is distinctive and gentle in appearnce which makes the mockup more visually aappealing.
+I chose the font style book antiqua because it is distinctive and gentle in appearnce which makes the mockup more visually aappealing.
 
 <!-- part 3 -->
-i had diffulcty in reducuing the size images on the header nav and the banner
+I had difficulty in reducuing the size images on the header nav and the banner
 
 images column layout was a bit tricky for me because of the text and some of the images where shrinking for some reasons i dont't no yet, but i was able to fix it a bit better then it was.
 
@@ -16,6 +16,7 @@ rigth after validating my code i found out that i was missing a doc html and and
 
 finally i was able to position the icons where i want it, this was sloved with display: inline block, and padding:inline start 20px;
 
+
 i think there is something wrong with my site, i keep having random warrings from console.
 Thankfully both html and css were successfully validated with no errors.
 
@@ -24,3 +25,4 @@ Thankfully both html and css were successfully validated with no errors.
 changings: i had to dynamically add the veiw more button with js to properly load more pokemons and go back to previous with catch error
 
 made changes to the pokemon css styles because the wight of the api overpowered my previous styles, popup image was diffcult to create it was't working for me.
+
